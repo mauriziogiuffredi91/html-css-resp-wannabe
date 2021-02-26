@@ -73,3 +73,39 @@ img {
 }
 
 /*********************** RESPONSIVE******************************************** */
+
+@media screen and (max-width:420px){
+
+
+      .container{
+          width: 420px;
+          
+      }
+
+      .container .row{
+        max-width: 100%;
+        margin: 0 auto;
+      }
+
+      #lezioni .row>.left,
+      #lezioni .row>.right {
+        width: 100%;
+        
+      }
+
+      .container .row h1{
+         font-size: 1.5rem; 
+         padding-bottom: 70px;
+      }
+
+      #lezioni .row img {
+          width: 75%;
+          
+          
+          
+      }
+
+
+
+
+}
