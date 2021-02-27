@@ -151,6 +151,26 @@ img {
     margin: 0 auto;
     text-align: center;
   }
+
+  .row h1{
+    margin: 50px 0;
+  }
+
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+    width: 48%;
+    float: left;
+    background-color: dodgerblue;
+    box-shadow: 5px 10px #888888;
+    border-radius: 4%;
+  }
+
+  #lezioni .row .left{
+    margin-right: 10px;
+    padding-bottom: 18px;
+  }
+
+  
 }
 
 
